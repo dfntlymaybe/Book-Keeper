@@ -8,57 +8,84 @@
   <body>
     <form>
       <div class="row">
-        <div class="col-2">
-          Username:
-        </div>
         <div class="col-1">
-          <input type="text" placeholder="Type name here..." />
+          <p>Username:</p>
+        </div>
+        <div class="col-2">
+          <input type="text" id="userName" placeholder="Type name here..." />
+        </div>
+        <div class="col-4">
+          <div class="errorMsg">
+          </div>
         </div>
       </div>
       <div class="row">
-        <div class="col-2">
-          Email:
-        </div>
         <div class="col-1">
+          <p>Email:</p>
+        </div>
+        <div class="col-2">
           <input type="email" placeholder="email@blabla.bla" />
         </div>
+        <div class="col-4">
+          <div class="errorMsg">
+          </div>
+        </div>
       </div>
       <div class="row">
-        <div class="col-2">
-          Password:
-        </div>
         <div class="col-1">
+          <p>Password:</p>
+        </div>
+        <div class="col-2">
           <input type="password" placeholder="****" />
         </div>
+        <div class="col-4">
+          <div class="errorMsg">
+          </div>
+        </div>
       </div>
       <div class="row">
-        <div class="col-2">
-          Repeat Password:
-        </div>
         <div class="col-1">
+          <p>Repeat Password:</p>
+        </div>
+        <div class="col-2">
           <input type="password" placeholder="****" />
         </div>
+        <div class="col-4">
+          <div class="errorMsg">
+          </div>
+        </div>
       </div>
       <div class="row">
-        <div class="col-2">
-          Telephone:
-        </div>
         <div class="col-1">
-          <input type="text" placeholder="050-5555555" />
+          <p>Telephone:</p>
         </div>
-      </div>
-      <div class="row">
         <div class="col-2">
-          Country :
+          <input type="text" id="phoneNumber" placeholder="050-5555555" />
         </div>
-        <div class="col-1">
-          <input type="text" placeholder="Type country here..." />
+        <div class="col-4">
+          <div class="errorMsg">
+          </div>
         </div>
       </div>
       <div class="row">
-        <button type="submit">Login</button>
+        <div class="col-1">
+          <p>Country:<p>
+        </div>
+        <div class="col-2">
+          <input id="country" type="text" placeholder="Type country here..." />
+        </div>
+        <div class="col-4">
+          <div class="errorMsg">
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <button type="submit" onclick="submitSignUp()">Sign Up</button>
       </div>
 
     </form>
+
+    <script type="text/javascript" src="sign-up.js"></script>
+
   </body>
 </html>
