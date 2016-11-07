@@ -1,0 +1,128 @@
+/*12 grid columns*/
+.col-1{
+  width: 8.33333333%;
+  float: left;
+}
+.col-2{
+  width: 16.6666666667%;
+  float: left;
+}
+.col-3{
+  width: 25%;
+  float: left;
+}
+.col-4{
+  width: 33.3333333333%;
+  float: left;
+}
+.col-5{
+  width: 41.6666666667%;
+  float: left;
+}
+.col-6{
+  width: 50%;
+  float: left;
+}
+.col-7{
+  width: 58.3333333333%;
+  float: left;
+}
+.col-8{
+  width: 66.6666666667%;
+  float: left;
+}
+.col-9{
+  width: 75%;
+  float: left;
+}
+.col-10{
+  width: 83.3333333333%;
+  float: left;
+}
+.col-11{
+  width: 91.6666666667%;
+  float: left;
+}
+.col-12{
+  width: 100%;
+  float: left;
+}
+/*row*/
+.row:before {
+  display: table;
+  content: "";
+}
+.row:after {
+  display: table;
+  content: "";
+  clear: both;
+}
+
+/*Navbar*/
+.navbar nav{
+  background-color: #333333;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+.navbar nav ul {
+  margin: 0;
+  text-align: left;
+}
+.navbar nav li{
+  display: inline-block;
+}
+.navbar nav li a { 
+  line-height: 50px;
+  text-decoration: none;
+  color: #999;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 11px;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 0 18px;
+}
+
+
+/*compliance with other browsers*/
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+@media (max-width: 700px) {
+  .col-1 {
+    width: 100%;
+  }
+  .col-2 {
+    width: 100%;
+  }
+  .col-3 {
+    width: 100%;
+  }
+  .col-4 {
+    width: 100%;
+  }
+  .col-5 {
+    width: 100%;
+  }
+  .col-6 {
+    width: 100%;
+  }
+  .col-7 {
+    width: 100%;
+  }
+  .col-8 {
+    width: 100%;
+  }
+  .col-9 {
+    width: 100%;
+  }
+  .col-10 {
+    width: 100%;
+  }
+  .col-11 {
+    width: 100%;
+  }
+}
